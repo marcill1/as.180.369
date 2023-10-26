@@ -1,7 +1,7 @@
 # ref: https://jupyterbook.org/en/stable/customize/config.html
 
-title: First Jupyter Book
-author: Cameron Riddell
+title: Inequality vs Political Parties
+author: Matt Arcillo
 execute:
   execute_notebooks: force
 
