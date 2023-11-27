@@ -1,12 +1,12 @@
 # ref: https://jupyterbook.org/en/stable/customize/config.html
 
-title: Inequality vs Political Parties
+title: Political Parties Affect on Inequality in the Federal Government
 author: Matt Arcillo
 execute:
   execute_notebooks: force
 
 bibtex_bibfiles:
-  - LitMaps.bib
+  - references.bib
 
 sphinx:
   config:
