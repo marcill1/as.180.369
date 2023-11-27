@@ -13,11 +13,33 @@
     - Miniconda: https://docs.conda.io/projects/miniconda/en/latest/
 
     - Brief introduction to virtual environments.
-    ```
-    conda install --name mamba --clone base
-    conda activate mamba
 
-    pip install econ-ark # noted for future.
+    contrib/camriddell/generic-environment.yml
+    ```
+    name: as.180.369
+    channels:
+    - conda-forge
+    dependencies:
+    - python=3.10
+    - matplotlib=3.7.2
+    - pandas=2.0.2
+    - statsmodels=0.14
+    - seaborn=0.12
+    - pip
+    - pip:
+      - fredapi==0.5.1
+    ```
+
+    To download the above file run the following command:
+
+    ```
+    curl -o environment.yml https://raw.githubusercontent.com/llorracc/as.180.369/main/contrib/camriddell/generic-environment.yml
+    ```
+
+    Then run
+
+    ```
+    conda env update -f environment.yml
     ```
 
 - Clone repository to local machine.
